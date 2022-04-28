@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.bindir             = 'bin'
   s.executables        = []
 
-  s.add_dependency('activesupport',  version)
+  s.add_dependency('activesupport',  '~> 5.0')
   s.add_dependency('actionpack',     version)
   s.add_dependency('activerecord',   version)
   s.add_dependency('activeresource', version)
